@@ -1,0 +1,59 @@
+.container{
+  margin-top: 10px;
+  width: 250px;
+ 
+  padding: 7px;
+  transition: all 450ms ease;
+  cursor: pointer;
+
+}
+.container:hover{
+    transform: scale(1.1);
+
+}
+img{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+  
+}
+
+
+.content_container{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+   
+}
+
+.description{
+    width: 100%;
+    margin-left: 5px;
+}
+
+.content{
+    font-size: 12px;
+}
+
+.channel{
+    font-size: 11px;
+    padding: 0;
+    margin-top: -10px;
+
+}
+.views{
+    font-size: 10px;
+}
+.timestamp{
+    margin-left:5px ;
+    font-size: 10px;
+}
+.extra{
+    margin-top: -15px;
+       
+    display: flex;
+}

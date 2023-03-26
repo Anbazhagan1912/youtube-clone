@@ -1,0 +1,96 @@
+.container{
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;  
+    z-index: 100;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+
+.menu{
+    font-weight: lighter;
+    font-size: 16px;
+}
+.icon_container{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon_container > img{
+    height: 45px;
+    object-fit:cover;
+    margin-left: 10px;
+}
+
+.search_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    font-size: 23px;
+}
+.search_container input{
+    border-radius: 20px;
+    padding: 8px;
+    padding-bottom: 6px;
+    width: 35%;
+    border: 1px solid lightgrey;
+    background-color: transparent;
+}
+
+.search{
+    margin-left: -40px;
+}
+
+.mic{
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all  450ms ease;
+
+}
+
+.mic:hover{
+    background-color:rgb(237, 233, 233);
+
+}
+
+
+.other_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.other_container > *{
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 50px;
+    font-size: 12px;
+    
+}
+
+.vc{
+    font-size: 21px;
+}
+.vcs{
+    font-size: 21px;
+}
+.other_container > *:hover{
+    background-color: rgb(237, 233, 233);
+}
+.av{
+   height: 30px;
+   width: 30px;
+}
